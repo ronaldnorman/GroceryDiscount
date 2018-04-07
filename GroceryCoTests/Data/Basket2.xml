@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<basket>
+  <items>
+    <item sku="VEG-ZUC-LRG-GRN-01" qty="2"></item>
+    <item sku="FRT-APL-LRG-GRN-01" qty="1"></item>
+    <item sku="VEG-ZUC-LRG-GRN-01" qty="3"></item>
+    <item sku="FRT-APL-LRG-RED-01" qty="1"></item>
+  </items>
+</basket>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <skus>
+    <sku id="FRT-APL-LRG-GRN-01" upc="">
+      <label>Apple - Large Green</label>
+      <price>3.0</price>
+      <discounts selection="simpleDiscount">
+        <simpleDiscount effectiveFromDate="2017-03-04 11:00AM" effectiveToDate="2017-03-05 4:00PM">
+          <label>Discount: On sale for $2!</label>
+          <discountedPrice>2.0</discountedPrice>
+        </simpleDiscount>
+        <groupDiscount effectiveFromDate="" effectiveToDate="">
+          <label></label>
+          <groupCount></groupCount>
+          <groupPrice></groupPrice>
+        </groupDiscount>
+        <addonDiscount effectiveFromDate="" effectiveToDate="">
+          <label></label>
+          <baseCount></baseCount>
+          <addonCount></addonCount>
+          <addonDiscountPercent></addonDiscountPercent>
+        </addonDiscount>
+      </discounts>
+    </sku>
+    <sku id="VEG-ZUC-LRG-GRN-01" upc="">
+      <label>Zuccini - Fresh</label>
+      <price>2.0</price>
+      <discounts selection="groupDiscount">
+        <simpleDiscount effectiveFromDate="2017-03-04 2:00PM" effectiveToDate="2017-03-05 4:00PM">
+          <label></label>
+          <discountedPrice></discountedPrice>
+        </simpleDiscount>
+        <groupDiscount effectiveFromDate="2017-03-04 2:00PM" effectiveToDate="2017-03-05 2:00PM">
+          <label>Discount: Buy 3 for $3.0!</label>
+          <groupCount>3</groupCount>
+          <groupPrice>3.0</groupPrice>
+        </groupDiscount>
+        <addonDiscount effectiveFromDate="" effectiveToDate="">
+          <label></label>
+          <baseCount></baseCount>
+          <addonCount></addonCount>
+          <addonDiscountPercent></addonDiscountPercent>
+        </addonDiscount>
+      </discounts>
+    </sku>
+    <sku id="FRT-APL-LRG-RED-01" upc="">
+      <label>Apple - Large Red</label>
+      <price>5.0</price>
+      <discounts selection="groupDiscount">
+        <simpleDiscount effectiveFromDate="" effectiveToDate="">
+          <label></label>
+          <discountedPrice>2.5</discountedPrice>
+        </simpleDiscount>
+        <groupDiscount effectiveFromDate="2017-03-04 2:00PM" effectiveToDate="2017-03-05 2:00PM">
+          <label>Discount: Buy 2 for $6.0!</label>
+          <groupCount>2</groupCount>
+          <groupPrice>6.0</groupPrice>
+        </groupDiscount>
+        <addonDiscount  effectiveFromDate="2017-01-04 2:00PM" effectiveToDate="2017-02-04 2:00PM">
+          <label>Discount: Buy 1 second one half off</label>
+          <baseCount>1</baseCount>
+          <addonCount>1</addonCount>
+          <addonDiscountPercent>50</addonDiscountPercent>
+        </addonDiscount>
+      </discounts>
+    </sku>
+    <sku id="VEG-BRC-SML-ABC-01" upc="">
+      <label>Broccoli - Small</label>
+      <price>16.0</price>
+      <discounts selection="addonDiscount">
+        <simpleDiscount effectiveFromDate="" effectiveToDate="">
+          <label></label>
+          <discountedPrice>2.5</discountedPrice>
+        </simpleDiscount>
+        <groupDiscount effectiveFromDate="2017-03-04 2:00PM" effectiveToDate="2017-03-05 2:00PM">
+          <label>Discount: Buy 2 for $6.0!</label>
+          <groupCount>2</groupCount>
+          <groupPrice>6.0</groupPrice>
+        </groupDiscount>
+        <addonDiscount  effectiveFromDate="2017-03-04 2:00PM" effectiveToDate="2017-03-05 2:00PM">
+          <label>Discount: Buy 2 get third 50% off</label>
+          <baseCount>2</baseCount>
+          <addonCount>1</addonCount>
+          <addonDiscountPercent>50</addonDiscountPercent>
+        </addonDiscount>
+      </discounts>
+    </sku>
+  </skus>
+</catalog>
